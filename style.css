@@ -1,23 +1,44 @@
 body {
     margin: 0;
+    background-color: black;
 }
-
 
 header {
     height: 500px;
     background-image: url("img/presentation_mojo_header.png");
     background-size: cover;
-    background-color: aliceblue;
-    
+    background-color: aliceblue;   
 }
 
-
 .autoplay {
-    z-index: -1; 
+    z-index: -1;
+    color: white; 
 }
 
 main {
   text-align: center;
   width: 80%;
   margin: auto;
+}
+h1, 
+h2, 
+h3 {
+    color: #FFCC00;
+}
+
+.list-emphasis {
+    color: #0099FF;
+}
+
+.list-lead {
+    text-align: left;
+    font-size: 24px;
+}
+
+ul {
+    text-align: justify;
+    color: white;
+}
+.content-text {
+    color: white;
 }
