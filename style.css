@@ -5,14 +5,20 @@ body {
 
 header {
     height: 500px;
+    width: 1000px;
+    margin: auto;
     background-image: url("img/presentation_mojo_header.png");
     background-size: cover;
-    background-color: aliceblue;   
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    text-align: center;   
 }
 
 .autoplay {
     z-index: -1;
     color: white; 
+    font-size: 2em;
+    font-style: italic;
 }
 
 main {
@@ -41,9 +47,15 @@ ul {
 }
 .content-text {
     color: white;
+    font-size: 1.5em;
+    text-align: justify;
 }
 
 .mojo-form {
     color: white;
     text-align: justify;
+}
+
+.article-two {
+    font-size: 1.5em;
 }
